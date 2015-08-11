@@ -1,0 +1,117 @@
+/* Search bar */
+header {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+}
+
+md-toolbar {
+	padding: 11px; 
+}
+
+/* Search Results Section */
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.storyPost {
+	float: left;
+	overflow: hidden;
+	display: block;
+	margin: 20px 0;
+	border-bottom: 1px solid #eee;
+	clear: both;
+	width: 100%;
+}
+
+.storyPost > ul {
+	overflow: hidden;
+	clear: both;
+}
+
+.story li {
+	/*overflow: hidden;*/
+  min-height: 100px;
+  height: auto;
+  position: relative;
+}
+
+.storyTitle {
+	display: block;
+	clear: both;
+	width: 100%;
+	border-bottom: solid 1px #eee;
+}
+
+.storyTitle ul {
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.storyText {
+	float: left;
+	width: 160px;
+	padding-right: 20px;
+	min-height: 1px;
+	background: white;
+	color: #333;
+	position: relative;
+	z-index: 1;
+}
+
+.storyText p {
+	background: white;
+	display: block;
+	padding: 10px;
+	margin: 0;
+}
+
+.storyImages {
+	float: left;
+	width: calc(100% - 220px)
+}
+
+.storyImages img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.followMeBar {
+	background: #222;
+	border-bottom: solid 1px #111;
+	border-top: solid 1px #444;
+	position: relative;
+	z-index: 1;
+}
+.storyText.fixed {
+	position: fixed;
+	top: 0;
+	width: 200px;
+	z-index: 0;
+}
+.storyText.fixed.absolute {
+	position: absolute;
+}
+
+.storyTextCaption.fixed {
+	position: fixed;
+	top: 0;
+	width: 200px;
+	z-index: 0;
+}
+.storyTextCaption.fixed.absolute {
+	position: absolute;
+}
